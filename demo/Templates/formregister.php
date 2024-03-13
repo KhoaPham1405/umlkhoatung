@@ -380,7 +380,7 @@
         
                                 <div class="user-btn-group row justify-content-between align-items-center">
                                     <button name="register" type="submit" class="user-btn-submit w-50 col-md-6 col-12">Sign up</button>
-                                    <a href="index.php?task=pagelogin" class="user-btn-signup position-relative p-0 mt-lg-4 mt-0 col-md-6 col-12">
+                                    <a href="index.php?task=pagelogin" class="user-btn-signup position-relative p-0 mt-4 mt-xl-0 col-md-6 col-12">
                                         Already have an account? Login here!
                                         <svg class="ms-1" xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
                                             <path d="M0.861539 8L0 7.13846L5.90769 1.23077H0.615385V0H8V7.38462H6.76923V2.09231L0.861539 8Z" fill="black"/>

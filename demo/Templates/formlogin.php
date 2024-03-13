@@ -375,7 +375,7 @@
 
                                     <div class="user-btn-group row justify-content-between align-items-center">
                                         <button name="login" type="submit" class="user-btn-submit w-50 col-md-6 col-12">Login</button>
-                                        <a href="index.php?task=pageregister" class="user-btn-signup position-relative col-md-6 col-12 p-0 mt-md-4 mt-0">
+                                        <a href="index.php?task=pageregister" class="user-btn-signup position-relative col-xl-6 col-12 p-0 mt-4 mt-md-0">
                                             New customer? Create your account!
                                             <svg class="ms-1" xmlns="http://www.w3.org/2000/svg" width="8" height="8"
                                                 viewBox="0 0 8 8" fill="none">
