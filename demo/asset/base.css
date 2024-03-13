@@ -1,0 +1,131 @@
+.container-primary {
+    width: 1440px !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.outline-none {
+    outline: none !important;
+}
+
+.header-page-title {
+    color: #000;
+    text-align: center;
+
+    /* h4 */
+    font-family: 'Lora', serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.font-albert {
+    font-family: 'Albert Sans', sans-serif;
+}
+
+.font-lora {
+    font-family: 'Lora', serif;
+}
+
+.w-offcanvas {
+    width: 25% !important;
+}
+
+.table-responsive {
+    max-height: 200px;
+    overflow: scroll;
+}
+
+@media only screen and (max-width: 1400px) {
+    .container-primary {
+        width: 100% !important;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .collection-grid-before {
+        margin-bottom: 24px;
+    }
+
+    .banner-content {
+        left: 32px;
+        bottom: 22px;
+    }
+
+    .lookbook-btn {
+        width: 20px;
+        height: 20px;
+    }
+
+    .lookbook-btn span {
+        width: 6px;
+        height: 6px;
+    }
+
+    .collection-item-img {
+        height: 550px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .slider-content {
+        width: 350px;
+    }
+
+    .slider-content-title {
+        font-size: 32px;
+        margin-bottom: 6px;
+    }
+
+    .slide-content-subtitle {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+
+    .slide-btn {
+        padding: 10px 20px;
+    }
+
+    .newsletter-title {
+        font-size: 32px;
+    }
+
+    .newsletter-para {
+        width: 320px;
+    }
+
+    .newsletter-input-email {
+        width: 180px;
+    }
+
+    .header-page-title {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .w-offcanvas {
+        width: 75% !important;
+    }
+
+    .header {
+        padding: 22px 10px;
+    }
+
+    .input-search {
+        width: 65%;
+    }
+
+    .header-feture-item {
+        margin-right: 4px;
+    }
+
+    .collection-item-img {
+        height: 410px;
+    }
+
+    .header-page-title {
+        font-size: 28px;
+    }
+}

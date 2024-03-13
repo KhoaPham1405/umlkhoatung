@@ -1,0 +1,1330 @@
+.header {
+  padding: 22px 40px;
+  background-color: #fff;
+}
+
+.header-btn-menu {
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 3px;
+  padding: 5px 8px;
+}
+
+.header-menu-list {
+  list-style-type: none;
+}
+
+.header-menu-item {
+  position: relative;
+  margin-right: 42px;
+}
+
+.header-menu-item::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  height: 1px;
+  width: 0%;
+  background-color: #000;
+  transition: all 0.3s ease-out;
+}
+
+.header-menu-item:hover.header-menu-item::after {
+  width: 100%;
+}
+
+.header-menu-link {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  font-family: Albert Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+.header-feture-item {
+  margin-right: 19px;
+}
+
+.header-feature-list {
+  list-style-type: none;
+}
+
+.offcanvas-search-title {
+  font-family: "Lora", serif;
+  font-size: 32px;
+}
+
+.form-input-search {
+  border: 1px solid #ebebeb;
+}
+
+.input-search {
+  width: 75%;
+  padding: 15px 30px;
+  outline: none;
+}
+
+.btn-submit-search {
+  font-family: "Albert Sans", sans-serif;
+  top: 4px;
+  right: 4px;
+  padding: 10px 30px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+}
+
+/* slider */
+
+.slider-content-title {
+  color: #fff;
+  text-align: center;
+
+  /* H1 */
+  font-family: Albert Sans;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 19px;
+}
+
+.slide-content-subtitle {
+  color: #fff;
+  text-align: center;
+
+  /* h6 */
+  font-family: Albert Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 150% */
+  margin-bottom: 49px;
+}
+
+.slide-btn {
+  padding: 15px 30px;
+  background-color: #000;
+  border: 1px solid #000;
+  transition: all 0.25s ease-in-out;
+}
+
+.slide-btn a {
+  color: var(--M3-sys-light-on-primary, #fff);
+  text-align: center;
+  font-family: Albert Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.25s ease-in-out;
+}
+
+.slide-btn:hover {
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.slide-btn:hover a {
+  color: #000;
+}
+
+/* collection grid */
+
+.colection-grid {
+  margin-top: 39px;
+  padding: 0 43px;
+}
+
+.collection-grid-item:hover .collection-grid-img {
+  transform: scale(1.1);
+}
+
+.collection-grid-before {
+  margin-bottom: 36px;
+}
+
+.collection-grid-img {
+  transition: all 1s ease-in-out;
+}
+
+.collection-grid-btn {
+  bottom: 47.5px;
+  padding: 15px 30px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #000;
+  font-family: Albert Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-out;
+}
+
+.collection-grid-btn svg {
+  width: 0px;
+  transition: all 0.29s ease-out;
+}
+
+.collection-grid-btn:hover {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+}
+
+.collection-grid-btn:hover svg {
+  width: 11px;
+  margin-left: 7px;
+}
+
+/* selling */
+.selling {
+  padding-top: 91px;
+}
+
+.selling-group-title {
+  padding-bottom: 60px;
+}
+
+.selling-subtitle {
+  color: #000;
+  text-align: center;
+  font-family: Albert Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.selling-title {
+  color: #000;
+  text-align: center;
+
+  /* h4 */
+  font-family: Albert Sans;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.selling-list {
+  padding: 0 43px;
+}
+
+.selling-link {
+  border: 1px solid #ebebeb;
+  text-decoration: none;
+}
+
+.selling-item {
+  padding: 22px 24px 35px 24px;
+}
+
+.selling-img img {
+  transition: all 1s ease;
+}
+
+.selling-img img:hover {
+  transform: scale(1.2);
+}
+
+.selling-information {
+  margin-top: 35px;
+}
+
+.selling-information-name {
+  color: #000;
+  text-align: center;
+  font-family: Albert Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 11px;
+}
+
+.selling-information-price {
+  color: #000;
+  text-align: center;
+  font-family: Albert Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 13px;
+}
+
+.selling-option-link {
+  width: 24px;
+  height: 24px;
+  margin-right: 13px;
+  border-radius: 50%;
+}
+
+.selling-btn-all {
+  margin-top: 76px;
+}
+
+.selling-btn-all button {
+  color: var(#000);
+  text-align: center;
+  font-family: Albert Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 15px 30px;
+}
+
+/* banner */
+
+.banner {
+  padding: 0 43px;
+  margin-top: 76px;
+  margin-bottom: 96px;
+}
+
+.banner-content {
+  left: 74px;
+  bottom: 79px;
+}
+
+.banner-item img {
+  transition: all 1s ease-in-out;
+}
+
+.banner-item:hover img {
+  transform: scale(1.2);
+}
+
+.banner-subtitle {
+  color: #fff;
+  font-family: Albert Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.banner-title {
+  color: #fff;
+
+  /* h4 */
+  font-family: Albert Sans;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.banner-btn {
+  background-color: #fff !important;
+  color: #000;
+  text-align: center;
+  font-family: Albert Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.banner-btn:hover {
+  background-color: #000 !important;
+  color: #fff;
+}
+
+/* lookbook */
+
+.lookbook {
+  padding: 0 39px;
+}
+
+.lookbook-subtitle {
+  color: #000;
+  text-align: center;
+  font-family: Albert Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.lookbook-title {
+  color: #000;
+  text-align: center;
+
+  /* h4 */
+  font-family: Albert Sans;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.lookbook-content {
+  margin-top: 58px;
+}
+
+.lookbook-item {}
+
+.lookbook-btn {
+  width: 26px;
+  height: 26px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.lookbook-btn span {
+  background-color: #000;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.lookbook-btn:hover {
+  background-color: #000;
+}
+
+.lookbook-btn:hover span {
+  background-color: #fff;
+}
+
+.dropdown-menu {
+  padding: 11px 10px !important;
+}
+
+.lookbook-product {
+  width: 316px;
+}
+
+.lookbook-dropdown {}
+
+.lookbook-product-infor {
+  margin-left: 19px;
+  margin-right: 36px;
+}
+
+.lookbook-product-name {
+  color: #000;
+  font-family: Albert Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.lookbook-product-price {
+  color: #000;
+  font-family: Albert Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.lookbook-product-view {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.lookbook-product-view:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* instagram */
+
+.instagram {
+  margin-top: 85px;
+  padding: 0 39px;
+  margin-bottom: 87px;
+}
+
+.ins-title {
+  color: #000;
+  text-align: center;
+
+  /* h4 */
+  font-family: Albert Sans;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 65px;
+}
+
+.ins-img {
+  transition: all 1s ease-in-out;
+}
+
+.ins-img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.ins-item-btn {
+  top: 12px;
+  right: 18px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.ins-item-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* newsletter */
+
+.newsletter {
+  margin-bottom: 88px;
+}
+
+.newsletter-title {
+  color: #000;
+  text-align: center;
+
+  /* h4 */
+  font-family: Albert Sans;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+
+.newsletter-para {
+  width: 555px;
+  color: #000;
+  text-align: center;
+  font-family: Albert Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  margin: 0 auto 35px auto;
+}
+
+.newsletter-input-email {
+  width: 400px;
+  padding: 12px 26px;
+  margin-right: 9px;
+  border: 1px solid #bebebe;
+  outline: none;
+  color: var(--2, #545454);
+
+  /* Body */
+  font-family: Albert Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 157.143% */
+}
+
+.newsletter-btn-sub {
+  padding: 15px 26px;
+  background-color: #000;
+  color: var(--M3-sys-light-on-primary, #fff);
+  text-align: center;
+  font-family: Albert Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 1px solid #000;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.newsletter-btn-sub:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* footer */
+.footer {
+  padding: 58px 0;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.footer-infor {
+  margin-top: 25px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-title {
+  color: #000;
+  font-family: Albert Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  /* 166.667% */
+}
+
+.footer-infor-link {
+  color: var(--2, #545454);
+  font-family: Albert Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 171.429% */
+  transition: all 0.25s ease-in-out;
+  margin-bottom: 10px;
+}
+
+.footer-infor-link span {
+  color: #545454;
+  font-family: Albert Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.footer-infor-link:hover {
+  color: rgb(219, 18, 21);
+}
+
+.footer-bottom {
+  padding: 25px 0;
+}
+
+.footer-bottom-left {
+  color: var(--2, #545454);
+  font-family: Albert Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 228.571% */
+}
+
+.footer-bottom-right-item {
+  margin-right: 10px;
+}
+
+/* offcanvas cart */
+.cart-body {
+  padding-top: 32px;
+  border-top: 1px solid #bebebe;
+}
+
+.offcanvas-cart-title {
+  font-family: "Lora", serif;
+}
+
+.cart-empty-title {
+  color: #000;
+  text-align: center;
+
+  /* h5 */
+  font-family: Albert Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 23px;
+}
+
+.cart-empty-para {
+  color: var(--2, #545454);
+  text-align: center;
+  padding: 0 54px;
+  /* Body */
+  font-family: Albert Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 157.143% */
+  margin-bottom: 33px;
+}
+
+.cart-empty-btn-link {}
+
+.cart-empty-btn {
+  padding: 15px 30px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+  transition: all .3s ease-in-out;
+  text-decoration: none;
+
+}
+
+.cart-empty-btn-icon {
+  width: 0%;
+  transition: all .3s ease-in-out;
+}
+
+.cart-empty-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.cart-empty-btn:hover .cart-empty-btn-icon {
+  width: 8px;
+}
+
+/* product-page */
+
+.product-path {
+  margin-top: 40px;
+  margin-bottom: 37px;
+}
+
+.product-path p {
+  color: #000;
+  font-family: "Albert Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 157.143% */
+}
+
+.product-path span {
+  color: var(--2, #545454);
+  font-family: "Albert Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.product-infor-name {
+  margin-bottom: 14px;
+}
+
+.product-infor-name h3 {
+  color: #000;
+
+  /* h5 */
+  font-family: "Albert Sans";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.product-infor-price {
+  margin-bottom: 18px;
+}
+
+.product-infor-current {
+  color: #DB1215;
+
+  /* h5 */
+  font-family: "Albert Sans";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.product-infor-old {
+  color: #989898;
+  font-family: "Albert Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 150% */
+  text-decoration-line: line-through;
+}
+
+.product-infor-option div {
+  margin-bottom: 14px;
+  color: #000;
+  font-family: "Albert Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 157.143% */
+}
+
+.product-infor-option div span {
+  color: #000;
+  font-family: "Albert Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.product-infor-option-list {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+.product-option-color {
+  margin: 5px 0;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: #CAFFD6;
+}
+
+.product-infor-quantity div {
+  color: #000;
+  font-family: "Albert Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  /* 157.143% */
+  margin-bottom: 14px;
+}
+
+.product-quantity-count {
+  width: 174px;
+  background-color: #F5F5F5;
+
+}
+
+.product-quantity-count input {
+  width: 104px;
+  padding: 11px 0;
+  outline: none;
+}
+
+.product-quantity-count button {}
+
+.product-infor-btn-add {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #000;
+  border: 1px solid #000;
+  border-radius: 3px;
+  transition: all .3s ease-in-out;
+}
+
+.product-infor-btn-add:hover {
+  background-color: #fff;
+}
+
+.product-infor-btn-add:hover.product-infor-btn-add p {
+  color: #000;
+}
+
+.product-infor-btn-add p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Albert Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  /* 187.5% */
+}
+
+.product-infor-agree {
+  color: #000;
+  font-family: "Albert Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 157.143% */
+}
+
+.product-infor-agree span {
+  color: #000;
+  font-family: "Albert Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  text-decoration-line: underline;
+}
+
+.product-infor-commit p {
+  color: #000;
+  font-family: "Albert Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 157.143% */
+}
+
+.product-infor-commit p span {
+  color: #000;
+  font-family: "Albert Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.product-infor-rules {
+  padding: 30px 44px 14px;
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+}
+
+.product-infor-rules p {
+  width: 243px;
+}
+
+.product-payment-commitments span {
+  color: #000;
+  font-family: "Albert Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.product-tabs {
+  margin-top: 90px;
+}
+
+.product-tabs-content {
+  border: 1px solid #ebebeb;
+}
+
+.product-tabs-content ul {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.product-tabs-list::after {}
+
+.product-tabs-link {
+  padding: 16px 0;
+  color: #000;
+  font-family: "Albert Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  /* 166.667% */
+}
+
+.product-tabs-link::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #000;
+  bottom: -1px;
+  left: 0;
+  transition: all .35s ease-in-out;
+}
+
+.product-tabs-link:hover.product-tabs-link::after {
+  width: 100%;
+}
+
+.tab-content {
+  padding-bottom: 65px;
+}
+
+.product-tabs-item h3 {
+  font-size: 22px;
+  font-weight: 400;
+  color: rgb(var(--color-foreground));
+  margin-bottom: 26px;
+  line-height: 28px;
+}
+
+.product-tabs-item p {
+  color: var(--2, #545454);
+
+  /* Body */
+  font-family: "Albert Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 157.143% */
+}
+
+.product-tabs-item-list {}
+
+.product-tabs-item-list-title {
+  color: #000;
+  font-family: "Albert Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  /* 137.5% */
+}
+
+.product-tabs-item-list li {
+  color: var(--2, #545454);
+  font-family: "Albert Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 185.714% */
+}
+
+/* login-page */
+
+.user-item-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.user-item-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.user-title {
+  color: #000;
+
+  /* h5 */
+  font-family: "Albert Sans";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.user-subtitle {
+  color: #000;
+
+  /* h5 */
+  font-family: "Albert Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 38px;
+}
+
+.user-infor {
+  padding: 13px 18px;
+  color: #909090;
+  font-family: "Albert Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 171.429% */
+  outline: none;
+}
+
+.user-forgot {
+  color: var(--2, #545454);
+  font-family: "Albert Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 171.429% */
+  text-decoration-line: underline;
+  margin-top: 21px;
+  margin-bottom: 23px;
+  display: block;
+  width: fit-content;
+  transition: all .3s ease-out;
+}
+
+.user-forgot:hover {
+  color: #DB1215;
+}
+
+.user-btn-submit {
+  color: var(--M3-sys-light-on-primary, #FFF);
+  text-align: center;
+  font-family: "Albert Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background-color: #000;
+  padding: 15px 0;
+  border-radius: 3px;
+  border: 1px solid #000;
+  transition: all .3s ease-in-out;
+}
+
+.user-btn-submit:hover {
+  background-color: #FFF;
+  color: #000;
+}
+
+.user-btn-signup {
+  width: fit-content !important;
+  color: #000;
+  font-family: "Albert Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.user-btn-signup::after {
+  content: "";
+  width: 0%;
+  height: 1px;
+  background-color: #000;
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  transition: all .25s ease-in-out;
+}
+
+.user-btn-signup:hover.user-btn-signup::after {
+  width: 100%;
+}
+
+.user-btn-signup svg {
+  width: 0%;
+  transition: all .25s ease-in-out;
+}
+
+.user-btn-signup:hover.user-btn-signup svg {
+  width: 8px;
+}
+
+/* collection-page */
+
+.collection-item-img {
+  height: 610px;
+  object-fit: cover;
+  object-position: center;
+  transition: all 1s ease-out;
+}
+
+.collection-item-img:hover {
+  transform: scale(1.2);
+}
+
+.collection-btn-link {
+  bottom: 30px;
+  background-color: #FFF;
+  color: #000;
+  text-decoration: none;
+  font-family: "Albert Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 15px 30px;
+  transition: all .3s ease-in-out;
+}
+
+.collection-btn-link:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* product-list-page */
+
+.category-feature-title {
+  color: #000;
+
+  /* h6 */
+  font-family: "Albert Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 150% */
+}
+
+.category-feature-list {
+  list-style-type: none;
+}
+
+.category-feature-list li a {
+  color: #000;
+  font-family: "Albert Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  /* 228.571% */
+  transition: all .3s ease-in-out;
+  text-decoration: none;
+}
+
+.category-feature-list li a:hover {
+  color: #DB1215;
+}
+
+.sale-product-name {
+  color: #000;
+  font-family: "Albert Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sale-product-price {
+  color: #000;
+  font-family: "Albert Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.product-list-shipping-item-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+.product-list-shipping-title {
+  color: #000;
+  font-family: "Albert Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  /* 187.5% */
+}
+
+.product-list-shipping-subtitle {
+  color: var(--2, #545454);
+  font-family: "Albert Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 228.571% */
+}
+
+.follow-item {
+  width: 34px;
+  height: 34px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.product-list-item-img img {
+  transition: all 1s ease-out;
+}
+
+.product-list-item-img img:hover {
+  transform: scale(1.2);
+}
+
+.product-list-item-name {
+  color: #000;
+  font-family: "Albert Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.product-list-item-price {
+  color: #000;
+  font-family: "Albert Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* page-user */
+
+.pageuser-category-title {
+  color: #000;
+
+  /* h6 */
+  font-family: "Albert Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 150% */
+}
+
+.pageuser-category-list-item {
+  color: #000;
+  font-family: "Albert Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  /* 228.571% */
+}
+
+.add-product-title,
+.add-user-title {
+  color: #000;
+
+  /* h6 */
+  font-family: "Albert Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+} 
+
+.oder-customer-name{
+  color: #000;
+  transition: all 1s ease;
+}
+
+.oder-customer-name:hover span {
+  color: #ff2d31;
+}
